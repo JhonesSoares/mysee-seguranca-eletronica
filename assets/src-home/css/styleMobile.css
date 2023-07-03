@@ -71,6 +71,7 @@
     /* MAIN CONTEÚDO */
 
     main section div#div_gps{
+        
         height: 250px;
         background-image: url(../image/fundo02-gps.png);
         background-repeat: no-repeat;
