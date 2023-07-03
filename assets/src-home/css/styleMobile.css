@@ -1,0 +1,106 @@
+:root {
+    --blue: #00bfff;
+    --orange: #ff8c00;
+    --green: #90ee90;
+    --darkblue: #000072;
+    --ligthgry: #dcdcdc;
+}
+
+@media(max-width:800px){
+
+    /* HEADER CABEÇALHO */
+    section#menu_Desktop{
+        display: none;
+    }
+    section#menuMobile{
+        display: block;
+        width: 100%;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.26);
+        position: fixed;
+    }
+    section nav#nav-img span {
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    section nav#nav-img {
+        background-color: var(--ligthgry);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    section nav#navList {
+        display: none;
+        background-color: var(--ligthgry);
+        width: 50vw;
+        height: 300px;
+        right: 0px;
+        border-bottom-left-radius: 100px;
+        position: fixed;   
+    }
+    section nav#navList ul li{
+        list-style: none;
+        padding: 15px;
+        text-align: center;
+    }
+    section nav#navList ul li a {
+        text-decoration: none;
+        color: var(--darkblue);
+        font-weight: bold;
+        padding: 10px;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.096);
+    }
+    section nav#navList ul li a:hover{
+        border-bottom: 2px solid var(--orange);
+    }
+    section nav#navList ul li a#contatos{
+        border: none;
+        background-color: #00bfff;
+        border-radius: 15px;
+        transition: 0.5s;
+    }
+    section nav#navList ul li a#contatos:hover{
+        background-color: #ff8c00;
+        color: white;
+        transition: 0.5s;
+    }
+    
+
+
+    /* MAIN CONTEÚDO */
+
+    main section div#div_gps{
+        height: 250px;
+        background-image: url(../image/fundo02-gps.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center bottom;
+    }
+
+    main section div div#div_titulo{
+        margin: 15px;
+        padding: 60px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    main section div div#div_titulo h1{
+        width: 150px;
+        font-size: 20px;
+        text-align: left;
+    }
+    main section div div#div_titulo p{
+        width: 150px;
+        padding: 3px;
+        font-weight: normal;
+        text-align: center;
+        margin: 0px;
+        font-size: 11px;
+    }
+    main section div#div_gps a{
+        font-size: 10px;
+        padding: 5px;
+    }
+
+}

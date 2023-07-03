@@ -1,0 +1,20 @@
+@media (max-width: 1300px){
+    main section#section_gps{
+        
+        background-size: 100%;
+    }
+    main section div#div_gps{
+        width: 100%;
+    }
+    main section div div#div_titulo h1{
+        width: 300px;
+        font-size: 35px;
+        text-align: right;
+    }
+    main section div div#div_titulo p{
+        width: 350px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+
+}
