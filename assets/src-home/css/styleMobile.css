@@ -6,7 +6,7 @@
     --ligthgry: #dcdcdc;
 }
 
-@media(max-width:800px){
+@media(max-width:700px){
 
     /* HEADER CABEÇALHO */
     section#menu_Desktop{
@@ -70,12 +70,12 @@
 
     /* MAIN CONTEÚDO */
 
-    main section div#div_gps{
+    main section#section_gps{
         
         height: 250px;
         background-image: url(../image/fundo02-gps.png);
         background-repeat: no-repeat;
-        background-size: 60%;
+        background-size: 45vh;
         background-position: center bottom;
     }
 
