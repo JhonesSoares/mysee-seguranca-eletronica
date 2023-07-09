@@ -6,7 +6,7 @@
     --ligthgry: #dcdcdc;
 }
 
-@media(max-width:700px){
+@media(max-width:600px){
 
     /* HEADER CABEÇALHO */
     section#menu_Desktop{
