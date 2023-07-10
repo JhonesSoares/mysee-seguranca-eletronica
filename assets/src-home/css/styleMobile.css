@@ -89,17 +89,17 @@
     }
 
     main section div div#div_titulo h1{
-        width: 150px;
-        font-size: 20px;
+        width: 200px;
+        font-size: 23px;
         text-align: left;
     }
     main section div div#div_titulo p{
-        width: 150px;
+        width: 200px;
         padding: 4px;
         font-weight: normal;
         text-align: center;
         margin: 0px;
-        font-size: 12px;
+        font-size: 14px;
         border-radius: 10px;
     }
     main section div#div_gps a{
