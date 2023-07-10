@@ -1,3 +1,161 @@
 @media (max-width: 992px) {
-         
+
+    :root {
+        --blue: #00bfff;
+        --orange: #ff8c00;
+        --green: #90ee90;
+        --darkblue: #000072;
+        --ligthgry: #dcdcdc;
+    }
+
+
+    /* HEADER CABEÇALHO */
+    section#menu_Desktop{
+        display: none;
+    }
+    section#menuMobile{
+        display: block;
+        width: 100%;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.26);
+        position: fixed;
+    }
+    section nav#nav-img span {
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    section nav#nav-img {
+        background-color: var(--ligthgry);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    section nav#navList {
+        display: none;
+        background-color: var(--ligthgry);
+        width: 50vw;
+        height: 300px;
+        right: 0px;
+        border-bottom-left-radius: 100px;
+        position: fixed;   
+    }
+    section nav#navList ul li{
+        list-style: none;
+        padding: 15px;
+        text-align: center;
+    }
+    section nav#navList ul li a {
+        text-decoration: none;
+        color: var(--darkblue);
+        font-weight: bold;
+        padding: 10px;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.096);
+    }
+    section nav#navList ul li a:hover{
+        border-bottom: 2px solid var(--orange);
+    }
+    section nav#navList ul li a#contatos{
+        border: none;
+        background-color: #00bfff;
+        border-radius: 15px;
+        transition: 0.5s;
+    }
+    section nav#navList ul li a#contatos:hover{
+        background-color: #ff8c00;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    
+    /* MAIN CONTEUDO */
+    main section#section_gps{
+        
+        height: 350px;
+        background-image: url(../image/fundo02-gps.png);
+        background-repeat: no-repeat;
+        background-size: 42vh;
+        background-position: center bottom;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+    section#section_container div#div_desc{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    section#section_container div#div_desc img{
+        width: 200px;
+    }
+    main section div div#div_titulo{
+        margin: 0 10px;
+        padding: 60px 0;
+        display: flex;
+        align-items: center;
+    }
+    main section div div#div_titulo h1{
+        width: 250px;
+        font-size: 34px;
+        text-align: left;
+    }
+    main section div div#div_titulo p{
+        width: 250px;
+        padding: 4px;
+        font-weight: normal;
+        text-align: center;
+        margin: 0px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    /* MAIN DIV CONTAINER */
+    section#section_container {
+        margin: 10px;
+        text-align: center;
+    }
+    section#section_container div#div_desc h1{
+        font-size: 40px;
+        color: var(--darkblue);
+    }
+    section#section_container div#div_desc p{
+        font-size: 20px;
+    }
+
+    section#section_container a{
+        text-decoration: none;
+    }
+    section#section_container div#div_container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    section#section_container div#div_container div{
+        margin: 20px 50px;
+        padding: 10px;
+        border-radius: 10px;
+        transition: 0.5s;
+        
+    }
+    section#section_container div#div_container div:hover{
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.26);
+        transition: 0.5s;
+    }
+     
+    section#section_container div#div_container div p{
+        font-size: 15px;
+        color: var(--darkblue);
+    }
+    section#section_container div#div_container button {
+        border: none;
+        background-color: var(--orange);
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 50px;
+    }
+    section#section_container div#div_container button:hover{
+        background-color: var(--darkblue);
+        transition: 0.7s;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.26);
+    }
 }
