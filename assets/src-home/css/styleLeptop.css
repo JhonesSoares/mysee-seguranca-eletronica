@@ -24,4 +24,8 @@
         font-size: 25px;
     }
 
+    section#section_container{
+        width: auto;
+    }
+
 }

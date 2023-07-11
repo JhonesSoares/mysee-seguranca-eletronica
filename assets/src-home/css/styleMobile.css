@@ -75,10 +75,10 @@
         height: 300px;
         background-image: url(../image/fundo02-gps.png);
         background-repeat: no-repeat;
-        background-size: 32vh;
+        background-size: 40vh;
         background-position: center bottom;
-        border-bottom-left-radius: 80px;
-        border-bottom-right-radius: 80px;
+        border-top-left-radius: 200px;
+        border-bottom-right-radius: 200px;
     }
 
     main section div div#div_titulo{
@@ -90,7 +90,7 @@
 
     main section div div#div_titulo h1{
         width: 150px;
-        font-size: 25px;
+        font-size: 23px;
         text-align: left;
     }
     main section div div#div_titulo p{
