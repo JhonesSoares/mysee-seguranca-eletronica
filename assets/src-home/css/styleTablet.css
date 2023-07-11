@@ -111,6 +111,7 @@
 
     /* MAIN DIV CONTAINER */
     section#section_container {
+        width: auto;
         margin: 10px;
         text-align: center;
     }
