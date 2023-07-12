@@ -28,4 +28,13 @@
         width: auto;
     }
 
+
+    section#section_solucoes div#div_solucoes{
+        width: auto;
+        margin: 20px 20px;
+    }
+    section#section_solucoes div#div_solucoes div{
+        flex-wrap: wrap;
+    }
+
 }

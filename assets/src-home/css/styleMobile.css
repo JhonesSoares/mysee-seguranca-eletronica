@@ -141,6 +141,10 @@
     }
     
 
+    section#section_solucoes div#div_solucoes h1{
+        font-size: 25px;
+    }
+
 }
 
 @media(max-width:350px){
