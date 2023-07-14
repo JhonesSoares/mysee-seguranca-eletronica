@@ -34,7 +34,7 @@
         display: none;
         background-color: var(--ligthgry);
         width: 50vw;
-        height: 300px;
+        height:300px;
         right: 0px;
         border-bottom-left-radius: 100px;
         position: fixed;   
@@ -143,6 +143,10 @@
 
     section#section_solucoes div#div_solucoes h1{
         font-size: 25px;
+    }
+
+    footer div img#logo{
+        width: 80px;
     }
 
 }
