@@ -192,7 +192,7 @@ section#section_container div#div_container{
     flex-wrap: wrap;
 }
 section#section_container div#div_container div{
-    width: 250px;
+    width: 350px;
     margin: 20px 50px;
     padding: 10px;
     border-radius: 10px;
@@ -307,6 +307,7 @@ footer div ul li a{
     text-decoration: none;
     color: var(--ligthgry);
     font-weight: bolder;
+    
     padding: 10px;
     margin-left: 5px;
     cursor: pointer;
