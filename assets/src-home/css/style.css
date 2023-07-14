@@ -227,8 +227,7 @@ section#section_container button:hover{
 
 
 section#section_solucoes{
-    border-top-right-radius: 500px;
-    border-bottom-left-radius: 500px;
+    margin-top: 80px;
 }
 section#section_solucoes div#div_solucoes{
     width: 1300px;
