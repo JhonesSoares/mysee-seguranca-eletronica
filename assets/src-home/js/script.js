@@ -1,10 +1,7 @@
+const menu = document.querySelector('.menu');
+const NavMenu = document.querySelector('.nav-menu');
 
-
-function abrirMenu(){
-    if(navList.style.display == 'block'){
-        navList.style.display = 'none'
-    } else{
-        navList.style.display = 'block'
-    }  
-}
-
+menu.addEventListener('click', () => {
+    menu.classList.toggle('ativo');
+    NavMenu.classList.toggle('ativo');
+})

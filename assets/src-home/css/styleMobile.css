@@ -6,64 +6,62 @@
     --ligthgry: #dcdcdc;
 }
 
-@media(max-width:600px){
+@media(max-width:785px){
 
     /* HEADER CABEÇALHO */
-    section#menu_Desktop{
-        display: none;
+    header nav.navigation{
+        padding: 8px 20px;
     }
-    section#menuMobile{
+    .menu{
         display: block;
-        width: 100%;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.26);
+    }
+    .menu.ativo .bar:nth-child(1){
+        transform:  translateY(8px) rotate(45deg);
+    }
+    .menu.ativo .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .menu.ativo .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
         position: fixed;
+        right: -100%;
+        top: 70px;
+        width: 50%;
+        height: 60%;
+        flex-direction: column;
+        background: var(--ligthgry);
+        gap: -10px;
+        transition: 0.5s;
+        border-bottom-left-radius: 20px;
     }
-    section nav#nav-img span {
-        padding: 10px;
-        cursor: pointer;
+    .nav-menu.ativo{
+        right: 0;
     }
-    
-    section nav#nav-img {
-        background-color: var(--ligthgry);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 20px;
+    .nav-item{
+        margin: 16px 0;
     }
-    section nav#navList {
-        display: none;
-        background-color: var(--ligthgry);
-        width: 50vw;
-        height:300px;
-        right: 0px;
-        border-bottom-left-radius: 100px;
-        position: fixed;   
-    }
-    section nav#navList ul li{
-        list-style: none;
-        padding: 15px;
+    /*main*/
+    .home{
+        padding: 100px 2%;
+        flex-direction: column;
         text-align: center;
+        overflow: hidden;
+        gap: 5rem;
     }
-    section nav#navList ul li a {
-        text-decoration: none;
-        color: var(--darkblue);
-        font-weight: bold;
-        padding: 10px;
-        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.096);
+    .home .text-h4{
+        font-size: 15px;
     }
-    section nav#navList ul li a:hover{
-        border-bottom: 2px solid var(--orange);
+    .home .text-h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
     }
-    section nav#navList ul li a#contatos{
-        border: none;
-        background-color: #00bfff;
-        border-radius: 15px;
-        transition: 0.5s;
+    .home p{
+        font-size: 15px;
     }
-    section nav#navList ul li a#contatos:hover{
-        background-color: #ff8c00;
-        color: white;
-        transition: 0.5s;
+    .home-img{
+        width: 125%;
     }
     
 
@@ -82,24 +80,25 @@
     }
 
     main section div div#div_titulo{
-        margin: 0 10px;
-        padding: 60px 0;
+        margin: 0px 10px;
+        padding: 90px 0;
         display: flex;
         align-items: center;
     }
 
     main section div div#div_titulo h1{
         width: 150px;
+        margin-top: 0px;
         font-size: 23px;
         text-align: center;
     }
     main section div div#div_titulo p{
-        width: 150px;
+        width: 155px;
         padding: 4px;
         font-weight: bold;
         text-align: center;
-        margin: 0px;
-        font-size: 14px;
+        margin-top: 0px;
+        font-size: 12px;
         border-radius: 10px;
     }
     main section div#div_gps a{

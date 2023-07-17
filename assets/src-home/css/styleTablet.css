@@ -76,7 +76,7 @@
         height: 350px;
         background-image: url(../image/fundo02-gps.png);
         background-repeat: no-repeat;
-        background-size: 42vh;
+        background-size: 72vh;
         background-position: center bottom;
         
     }
@@ -89,7 +89,7 @@
         width: 200px;
     }
     main section div div#div_titulo{
-        margin: 0 10px;
+        margin: 0 80px;
         padding: 60px 0;
         display: flex;
         align-items: center;
@@ -105,7 +105,7 @@
         font-weight: bold;
         text-align: center;
         margin: 0px;
-        font-size: 20px;
+        font-size: 15px;
         border-radius: 10px;
     }
 
