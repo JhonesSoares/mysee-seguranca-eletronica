@@ -88,12 +88,16 @@
         font-size: 15px;
         padding: 7px;
     }
+
+
+
+
     section#section_container {
         margin: 10px;
         text-align: center;
     }
     section#section_container div#div_desc h1{
-        font-size: 18px;
+        font-size: 25px;
         color: var(--darkblue);
         
     }
