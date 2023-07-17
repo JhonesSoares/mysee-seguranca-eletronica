@@ -38,7 +38,7 @@ header nav.navigation{
 header nav.navigation ul{
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 header nav.navigation ul li a{
     padding: 10px;
@@ -188,6 +188,9 @@ section#section_container div#div_desc h1{
     font-size: 40px;
     color: var(--darkblue);
 }
+section#section_container div#div_desc h1 span{
+    border-bottom: 1px solid var(--orange);    
+}
 section#section_container div#div_desc p{
     color: var(--darkblue);
     font-weight: 500;
@@ -299,7 +302,7 @@ section#section_mapa{
 }
 section#section_mapa div iframe{
     width: 100%;
-    height: 70vh;
+    height: 35vh;
 }
 
 
