@@ -29,7 +29,7 @@
         right: -100%;
         top: 70px;
         width: 50%;
-        height: 70%;
+        height: 60%;
         flex-direction: column;
         background: var(--ligthgry);
         gap: -10px;
@@ -138,7 +138,7 @@
 
 }
 
-@media(max-width:350px){
+@media(max-width:390px){
     main section div div#div_titulo h1{
         font-size: 24px;
         text-align: center;
