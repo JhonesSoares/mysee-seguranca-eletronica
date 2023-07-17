@@ -97,12 +97,12 @@
         text-align: center;
     }
     section#section_container div#div_desc h1{
-        font-size: 25px;
+        font-size: 30px;
         color: var(--darkblue);
         
     }
     section#section_container div#div_desc p{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     section#section_container a{
@@ -121,13 +121,13 @@
     }
      
     section#section_container div#div_container div p{
-        font-size: 15px;
+        font-size: 18px;
         color: var(--darkblue);
     }
     
 
     section#section_solucoes div#div_solucoes h1{
-        font-size: 25px;
+        font-size: 30px;
     }
 
 
