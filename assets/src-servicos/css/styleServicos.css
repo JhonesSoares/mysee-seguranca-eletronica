@@ -80,3 +80,63 @@ header nav ul li a#contatos:hover{
 .menu .bar:nth-child(3){
     background: var(--orange);
 }
+
+
+section#section_titulo{
+    background-color: var(--darkblue);
+    border-bottom-left-radius: 800px;
+    border-bottom-right-radius: 800px;
+}
+section#section_titulo div{
+    width: 1300px;
+    height: 40vh;
+    margin: auto;
+    text-align: center;    
+}
+section#section_titulo div h1{
+    padding-top: 130px;
+    color: var(--ligthgry);
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-size: 80px;
+}
+
+section#section_titulo div p{
+    padding: 40px; 
+}
+section#section_titulo div p a{
+    padding: 10px;
+    color: var(--ligthgry);
+    font-weight: bold;
+    border-bottom: solid 2px var(--orange);
+}
+section#section_titulo div p a:hover{
+    color: var(--orange);
+    transition: 0.3s;
+}
+
+
+section#section_container div#div_container{
+    width: 1300px;
+    margin: auto;
+    padding: 40px 0;
+}
+section#section_container div#div_container div p{
+    color: var(--darkblue);
+    text-align: center;
+}
+section#section_container div#div_container div p#p2{
+    margin-top: 40px;
+    text-align: left;
+    font-weight: 600;
+    align-items: center;
+}
+section#section_container div#div_container div p#p2 span{
+    display: inline-block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--orange);
+    
+}
+
