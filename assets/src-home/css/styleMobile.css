@@ -28,8 +28,8 @@
         position: fixed;
         right: -100%;
         top: 70px;
-        width: 50%;
-        height: 60%;
+        width: 40%;
+        height: 100%;
         flex-direction: column;
         background: var(--ligthgry);
         gap: -10px;
@@ -151,7 +151,7 @@
         gap: 1rem;
     }
     .nav-menu{
-        width: 100%;
+        width: 40%;
         height: 100vh;
     }
 }

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --blue: #00bfff;
+    --orange: #ff8c00;
+    --green: #90ee90;
+    --darkblue: #000072;
+    --ligthgry: #dcdcdc;
+}
+
+body {
+    background-color: var(--ligthgry);
+}
+
+/* HEADER CABEÇALHO*/
+header nav.navigation{
+    background: var(--ligthgry);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.26);
+    transition: all 0.5s;
+    position: fixed;
+}
+
+header nav.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+header nav.navigation ul li a{
+    padding: 10px;
+    color: var(--darkblue);
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+header nav.navigation ul li a:hover{
+    border-bottom: 2px solid var(--orange);   
+}
+header nav ul li a#contatos{
+    background-color: #00bfff;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s;    
+}
+header nav ul li a#contatos:hover{
+    background-color: var(--orange);
+    transition: 0.3s;
+    color: white;   
+}
+
+.menu{
+    cursor: pointer;
+    display: none;
+}
+.menu .bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--blue);
+    margin: 5px auto;
+    transition: all 0.3s;
+}
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3){
+    background: var(--orange);
+}

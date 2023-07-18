@@ -1,7 +1,14 @@
+@media (max-width: 1400px){
+    main section#section_gps{
+        border-top-left-radius: 250px;
+        border-bottom-right-radius: 250px;
+    }
+}
+
 @media (max-width: 1300px){
     main section#section_gps{
-        
         background-size: 100%;
+        
     }
     main section div#div_gps{
         width: 100%;
