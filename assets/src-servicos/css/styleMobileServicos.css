@@ -62,6 +62,15 @@
         width: auto;
         margin: 0 20px;
     }
+    section#section_container div#div_container div#conteudo_servicos{
+        text-align: center;
+    }
+    section#section_container div#div_container div#conteudo_servicos div{
+        width: 100%;
+    }
+    section#section_container div#div_container div#conteudo_servicos div img{
+        width: 100%;
+    }
 
 
     footer div#div_footer{
@@ -72,5 +81,28 @@
     }
     footer div#div_list ul{
         flex-wrap: wrap;
+    }
+}
+
+@media(max-width:390px){
+    main section div div#div_titulo h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    main section div div#div_titulo p{
+        font-size: 12px;
+    }
+
+    header nav.navigation ul {
+        gap: 1rem;
+    }
+    .nav-menu{
+        width: 40%;
+        height: 100vh;
+    }
+
+    section#section_titulo div{
+        width: auto;
+        height: 29vh;
     }
 }
