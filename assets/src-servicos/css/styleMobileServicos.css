@@ -34,5 +34,43 @@
     }
     .nav-item{
         margin: 16px 0;
-    }    
+    }
+    
+    
+    
+    /* conteudo principal */
+    section#section_titulo{
+        background-color: var(--darkblue);
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+    section#section_titulo div{
+        width: auto;
+        height: 30vh;
+    }
+    section#section_titulo div h1{
+        font-size: 30px;
+        padding-top: 90px;
+    }
+    section#section_titulo div p{
+        padding: 20px;
+    }
+    
+
+
+    section#section_container div#div_container{
+        width: auto;
+        margin: 0 20px;
+    }
+
+
+    footer div#div_footer{
+        width: auto;
+    }
+    footer div img#logo{
+        width: 80px;
+    }
+    footer div#div_list ul{
+        flex-wrap: wrap;
+    }
 }

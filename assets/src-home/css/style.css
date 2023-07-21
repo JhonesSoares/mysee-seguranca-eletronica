@@ -19,6 +19,9 @@
     --ligthgry: #dcdcdc;
 }
 
+body{
+    background-color: var(--ligthgry);
+}
 
 /* HEADER CABEÇALHO*/
 header nav.navigation{
