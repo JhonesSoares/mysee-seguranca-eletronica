@@ -1,6 +1,5 @@
 
 @media (max-width: 992px) {
-
     :root {
         --blue: #00bfff;
         --orange: #ff8c00;
@@ -8,8 +7,6 @@
         --darkblue: #000072;
         --ligthgry: #dcdcdc;
     }
-
-
     /* HEADER CABEÇALHO */
     section#menu_Desktop{
         display: none;
@@ -24,7 +21,6 @@
         padding: 10px;
         cursor: pointer;
     }
-    
     section nav#nav-img {
         background-color: var(--ligthgry);
         display: flex;
@@ -41,7 +37,6 @@
         border-bottom-left-radius: 100px;
         position: fixed;     
     }
-    
     section nav#navList ul li{
         list-style: none;
         padding: 15px;
@@ -69,16 +64,13 @@
         transition: 0.5s;
     }
     
-    
     /* MAIN CONTEUDO */
     main section#section_gps{
-        
         height: 350px;
         background-image: url(../image/fundo02-gps.png);
         background-repeat: no-repeat;
         background-size: 72vh;
         background-position: center bottom;
-        
     }
     section#section_container div#div_desc{
         display: flex;
@@ -135,14 +127,12 @@
         margin: 20px 50px;
         padding: 10px;
         border-radius: 10px;
-        transition: 0.5s;
-        
+        transition: 0.5s;  
     }
     section#section_container div#div_container div:hover{
         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.26);
         transition: 0.5s;
     }
-     
     section#section_container div#div_container div p{
         font-size: 15px;
         color: var(--darkblue);
@@ -160,8 +150,6 @@
         transition: 0.7s;
         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.26);
     }
-
-
 
     section#section_solucoes div#div_solucoes h1{
         font-size: 30px;

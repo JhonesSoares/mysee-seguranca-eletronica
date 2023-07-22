@@ -20,14 +20,13 @@
         right: -100%;
         top: 70px;
         width: 40%;
-        height: 100%;
+        padding: 20px;
         flex-direction: column;
         background: var(--ligthgry);
         gap: -10px;
         transition: 0.5s;
         border-bottom-left-radius: 50px;
-        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.068);
-        
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.068);  
     }
     .nav-menu.ativo{
         right: 0;
@@ -46,13 +45,13 @@
     }
     section#section_titulo div{
         width: auto;
-        height: 30vh;
     }
     section#section_titulo div h1{
         font-size: 30px;
-        padding-top: 90px;
+        padding-top: 80px;
     }
     section#section_titulo div p{
+        font-size: 13px;
         padding: 20px;
     }
     
@@ -60,7 +59,7 @@
 
     section#section_container div#div_container{
         width: auto;
-        margin: 0 20px;
+        margin: 0 10px;
     }
     section#section_container div#div_container div#conteudo_servicos{
         text-align: center;
@@ -84,6 +83,8 @@
     }
 }
 
+
+
 @media(max-width:390px){
     main section div div#div_titulo h1{
         font-size: 24px;
@@ -94,15 +95,19 @@
     }
 
     header nav.navigation ul {
-        gap: 1rem;
+        gap: 0.8rem;
     }
     .nav-menu{
-        width: 40%;
-        height: 100vh;
+        width: 46%;
     }
 
     section#section_titulo div{
         width: auto;
-        height: 29vh;
+    }
+    section#section_container div#div_container{
+        margin: 0 10px;
+    }
+    section#section_container div#div_container p{
+        font-size: 13px;
     }
 }

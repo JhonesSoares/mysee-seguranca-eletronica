@@ -1,0 +1,26 @@
+@media(max-width: 1300px){
+    section#section_titulo div{
+        width: auto;
+    }
+    section#section_titulo div h1{
+        padding-top: 80px;
+        font-size: 50px;
+    }
+    section#section_titulo div p{
+        padding: 20px;
+    }
+    section#section_container div#div_container{
+        width: auto;
+        margin: 0 50px;    
+    }
+    section#section_container div#div_container div#conteudo_servicos{
+        display: flex;
+        justify-content: center;  
+    }
+    section#section_container div#div_container div#conteudo_servicos div img{
+        border-radius: 10px;
+    }
+    footer div#div_footer{
+        width: auto;
+    }
+}
