@@ -1,3 +1,12 @@
+@media(max-width: 1400px){
+    section#section_titulo div{
+        width: auto;
+    }
+    section#section_titulo div h1{
+        padding-top: 80px;
+        font-size: 50px;
+    }    
+}
 @media(max-width: 1300px){
     section#section_titulo div{
         width: auto;
