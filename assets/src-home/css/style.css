@@ -100,7 +100,7 @@ section#redes_Sociais img:hover{
 
 /* MAIN CONTEÚDO*/
 main section#section_gps{
-    background-color: var(--darkblue);
+    background-color: var(--blue);
     background-image: url(../image/fundo2-gps.png);
     background-repeat: no-repeat;
     background-size: 61%;
@@ -121,7 +121,7 @@ main section div div#div_titulo {
 }
 main section div div#div_titulo h1{
     width: 500px;
-    color: var(--ligthgry);
+    color: var(--darkblue);
     font-size: 80px;
     font-family: 'Anton', sans-serif;
     font-weight: normal;

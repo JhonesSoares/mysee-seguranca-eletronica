@@ -101,7 +101,7 @@ section#redes_Sociais img:hover{
 
 /* CONTEUDO PRINCIPAL*/
 section#section_titulo{
-    background-color: var(--darkblue);
+    background-color: var(--blue);
     border-bottom-left-radius: 800px;
     border-bottom-right-radius: 800px;
 }
@@ -112,7 +112,7 @@ section#section_titulo div{
 }
 section#section_titulo div h1{
     padding-top: 130px;
-    color: var(--ligthgry);
+    color: var(--darkblue);
     font-family: 'Anton', sans-serif;
     font-weight: normal;
     font-size: 80px;
@@ -122,7 +122,7 @@ section#section_titulo div p{
 }
 section#section_titulo div p a{
     padding: 10px;
-    color: var(--ligthgry);
+    color: var(--darkblue);
     font-weight: bold;
     border-bottom: solid 2px var(--orange);
 }
