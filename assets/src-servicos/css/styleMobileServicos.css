@@ -39,7 +39,6 @@
     
     /* conteudo principal */
     section#section_titulo{
-        background-color: var(--darkblue);
         border-bottom-left-radius: 100px;
         border-bottom-right-radius: 100px;
     }
